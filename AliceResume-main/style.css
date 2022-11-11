@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html, body {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-size: 100%;
+    border: 0px;
+    margin: 0px;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+#header_chunk {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg1.jpg");
+    margin: auto;
+}
+
+#header_intro {
+    height: 50%;
+    font-style: italic;
+    color: black;
+    margin: auto auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#about_me_text, #projects_text {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#about_me, #projects {
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    background-color: white;
+    color: black;
+}
+
+div {
+    margin: auto;
+    width: 60%;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#about_me_picture {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+#buttons {
+    background-color: #26E2D9;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    border: 3px;
+    border-color: black;
+}
