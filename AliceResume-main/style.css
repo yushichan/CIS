@@ -8,7 +8,9 @@
     background: transparent;
 }
 
+
 html, body {
+
     text-align: center;
     font-family: 'Verdana', sans-serif;
     font-size: 100%;
@@ -17,6 +19,7 @@ html, body {
     height: 100%;
     background-color: black;
     color: white;
+
 }
 
 #header_chunk {
@@ -28,8 +31,9 @@ html, body {
 
 #header_intro {
     height: 50%;
+    font-size: 160%;
     font-style: italic;
-    color: black;
+    color: rgb(52, 82, 82);
     margin: auto auto;
     position: absolute;
     top: 50%; left: 50%;
@@ -45,6 +49,7 @@ html, body {
 #about_me, #projects {
     background-color: black;
     color: white;
+ 
 }
 
 #contact {
@@ -72,20 +77,33 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 5em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h4 {
     font-size: 1.75em;
 }
 
+h5 {
+    font-size: 2.25em;
+}
+
+h6 {
+    font-size: 1.4em;
+}
+
+
+
+
+
+
 #buttons {
     background-color: #26E2D9;
-    height: 60px;
+    height: 125px;
     width: 100%;
     margin: auto;
 }
