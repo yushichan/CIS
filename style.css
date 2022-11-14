@@ -96,20 +96,43 @@ h6 {
     font-size: 1.4em;
 }
 
+h7 {
+    font-size: 2em;
 
+}
+
+h8 {
+    font-size: 1.3em;
+
+
+}
 
 
 
 
 #buttons {
     background-color: #26E2D9;
-    height: 125px;
+    height: 170px;
     width: 100%;
     margin: auto;
 }
 
 button {
-    margin: auto;
-    border: 3px;
-    border-color: black;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+
+
+
+
+#content_to_show {
+    display: none;
 }
